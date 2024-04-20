@@ -1,0 +1,22 @@
+{
+  "name": "GLiveVideoManager",
+  "version": "0.0.1",
+  "summary": "iOS 视频推流工具",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/langtaosha1990/GLiveVideoManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "langtaosha1990": "13301245282@163.com"
+  },
+  "source": {
+    "git": "https://github.com/langtaosha1990/GLiveVideoManager.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "GLiveVideoManager/GLiveVideoManager/**/*"
+}

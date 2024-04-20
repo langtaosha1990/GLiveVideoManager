@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GLiveVideoManager'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of GLiveVideoManager.'
+  s.version          = '0.0.1'
+  s.summary          = 'iOS 视频推流工具'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -26,11 +26,12 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'langtaosha1990' => '13301245282@163.com' }
   s.source           = { :git => 'https://github.com/langtaosha1990/GLiveVideoManager.git', :tag => s.version.to_s }
+  
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'GLiveVideoManager/Classes/**/*'
+  s.source_files = 'GLiveVideoManager/GLiveVideoManager/**/*'
   
   # s.resource_bundles = {
   #   'GLiveVideoManager' => ['GLiveVideoManager/Assets/*.png']

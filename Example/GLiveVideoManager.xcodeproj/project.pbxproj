@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0CCD64F683AA2EA31E568956 /* Pods_GLiveVideoManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GLiveVideoManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		191E6F07BE27E65507A893B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		191E6F07BE27E65507A893B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1C36B80E551A836CDDFAAB26 /* Pods-GLiveVideoManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLiveVideoManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GLiveVideoManager_Tests/Pods-GLiveVideoManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4255EF85EE6FD3786C751730 /* Pods-GLiveVideoManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLiveVideoManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-GLiveVideoManager_Example/Pods-GLiveVideoManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		47F988672C08002CEC134FDE /* Pods-GLiveVideoManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLiveVideoManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-GLiveVideoManager_Tests/Pods-GLiveVideoManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,9 +63,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		911003C7F17D0CDC7A08FA79 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		911003C7F17D0CDC7A08FA79 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A581C12B606FB51794AB6FBF /* Pods_GLiveVideoManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GLiveVideoManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDF944F1E73630CF406848EA /* GLiveVideoManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GLiveVideoManager.podspec; path = ../GLiveVideoManager.podspec; sourceTree = "<group>"; };
+		EDF944F1E73630CF406848EA /* GLiveVideoManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GLiveVideoManager.podspec; path = ../GLiveVideoManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FD39F1FD0D0132ACD865559D /* Pods-GLiveVideoManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLiveVideoManager_Example.release.xcconfig"; path = "Target Support Files/Pods-GLiveVideoManager_Example/Pods-GLiveVideoManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				1C36B80E551A836CDDFAAB26 /* Pods-GLiveVideoManager_Tests.debug.xcconfig */,
 				47F988672C08002CEC134FDE /* Pods-GLiveVideoManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				E9EE1EEFF138567F43380C91 /* [CP] Embed Pods Frameworks */,
+				C78AF2D09984731BAE953EE2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -318,6 +318,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C78AF2D09984731BAE953EE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GLiveVideoManager_Example/Pods-GLiveVideoManager_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GLiveVideoManager/GLiveVideoManager.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GLiveVideoManager.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GLiveVideoManager_Example/Pods-GLiveVideoManager_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D04230C2EECF5D52A231B1DC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -358,24 +376,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GLiveVideoManager_Tests/Pods-GLiveVideoManager_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E9EE1EEFF138567F43380C91 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GLiveVideoManager_Example/Pods-GLiveVideoManager_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GLiveVideoManager/GLiveVideoManager.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GLiveVideoManager.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GLiveVideoManager_Example/Pods-GLiveVideoManager_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
