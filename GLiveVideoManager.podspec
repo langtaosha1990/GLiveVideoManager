@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/langtaosha1990/GLiveVideoManager'
+  s.homepage         = 'git@github.com:langtaosha1990/GLiveVideoManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'langtaosha1990' => '13301245282@163.com' }
-  s.source           = { :git => 'https://github.com/langtaosha1990/GLiveVideoManager.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:langtaosha1990/GLiveVideoManager.git', :tag => s.version.to_s }
   
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
