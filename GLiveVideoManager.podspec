@@ -38,6 +38,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'AVFoundation', 'VideoToolbox'
+   s.frameworks = 'AVFoundation', 'VideoToolbox', 'CoreMedia'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
