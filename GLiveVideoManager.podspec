@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'GLiveVideoManager/GLiveVideoManager/**/*'
+  s.source_files  = "GLiveVideoManager/**/*.{h,m,mm,cpp,c}"
   
   # s.resource_bundles = {
   #   'GLiveVideoManager' => ['GLiveVideoManager/Assets/*.png']

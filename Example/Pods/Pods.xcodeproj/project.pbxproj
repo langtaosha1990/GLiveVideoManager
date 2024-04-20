@@ -101,7 +101,6 @@
 		847312CB953329122B7F5B864C15F5FE /* NSValue+Expecta.m in Sources */ = {isa = PBXBuildFile; fileRef = A6785D611ED60D8B0EC004F4E7479B16 /* NSValue+Expecta.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		87509A41F730B62243697FE2A2535377 /* SPTTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = F703EBE7600167825031EF253EBABABC /* SPTTestSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88DCA1A8606768C16601B77DDDCA2231 /* EXPMatchers+beLessThan.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C3B5CA959E14C7CA811F47B2D99E5F /* EXPMatchers+beLessThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		8DF7CE70DAD1C9B60D7C08FDE039F06F /* SampleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 990A9A5E3DC2AE945C56F705BF10A346 /* SampleHandler.m */; };
 		8F8819A866AF3B79DDB66D57F27FBDEC /* parseurl.c in Sources */ = {isa = PBXBuildFile; fileRef = 433E3411397B18C1945679214A7F3F6A /* parseurl.c */; };
 		913C954DE11D6E3863890AD4A358708F /* SpectaDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FE493A9150E104EC776C299BB6CC85 /* SpectaDSL.m */; };
 		95038CE338827425E785F35822B5D7B1 /* SpectaUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = A96AB2161AC135AB694363282EDF58A3 /* SpectaUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -146,7 +145,6 @@
 		CB8A26F7B56EE3511ADCD26B37DC6669 /* ExpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF764DB2C57A1C2185C929CACDA787C /* ExpectaSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CD57DB486DA7221C5A70226D50FFF0A5 /* EXPMatchers+conformTo.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96C3AA4E7AB53637D7841F820C0945 /* EXPMatchers+conformTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CF8F1B11C396314D87B67AC569C72A79 /* SPTCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = AD36087967C18479C0A2F540B4438141 /* SPTCallSite.m */; };
-		D1A4907EBC3D38F4C30CF59BF30C3186 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B13BE6EB15D39B5ED6F9903574FF9C /* ReplaceMe.m */; };
 		D20ED422F19CBEBE50EFD34D10A7204D /* EXPMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = EEB4B550FC65020C333C0E6264A7BE18 /* EXPMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D265ED87490296DBD76C9D20394875A1 /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA39E2AE0A0E3E07FABF3883D3D2480 /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D67114A7D3E6BAA39DBEDCBBA5D325AA /* Expecta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F8079341ED2802C4A9649F9439C07F /* Expecta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -168,7 +166,6 @@
 		F0EA8AEF1B95FB7370DBB801B22C0885 /* EXPMatchers+beSupersetOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C9B713C37ED2154E6EA7B3FC5E9627 /* EXPMatchers+beSupersetOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F17E50B5F51BAC83AA60E8A86DFCE042 /* EXPMatchers+beSubclassOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 10ABE6CBD5572D636D1448F5C0A65F33 /* EXPMatchers+beSubclassOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F1B846EDCC397D898BC1F6E2949617D7 /* LFMP4Atom.h in Headers */ = {isa = PBXBuildFile; fileRef = 92DE25C777D4334B815AA38BB59281D9 /* LFMP4Atom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1D0023D78D5476EC5A21FA63208CBAC /* SampleHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 4444F5B79FB0545A1502EA6A8D198BC2 /* SampleHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2154347D07CF55F2B4181F5F3C1E01B /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B04CCD11D71B8DA01323427A6618DB4 /* EXPMatchers+beCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2A349148D4872E904C79BF76D3E2A04 /* EXPMatchers+contain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCEBD6BE320FDFBD6C4CE2FBFC4088E /* EXPMatchers+contain.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F2B25208AF3A11DE8DB61199A4101BAB /* LFLiveVideoConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = E9A1C297DF89A8C59362096A6DD6236E /* LFLiveVideoConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -223,7 +220,7 @@
 		03F8079341ED2802C4A9649F9439C07F /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
 		059650BC2701690DEC7AE4BC28A640E1 /* SPTSharedExampleGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSharedExampleGroups.h; path = Specta/Specta/SPTSharedExampleGroups.h; sourceTree = "<group>"; };
 		06845B42810A18ABA0F6AA6A5ACF0218 /* Expecta-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Expecta-Info.plist"; sourceTree = "<group>"; };
-		06ABA8E1F916258B0BB276AA678B09CD /* LFAVEncoder.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = LFAVEncoder.mm; sourceTree = "<group>"; };
+		06ABA8E1F916258B0BB276AA678B09CD /* LFAVEncoder.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = LFAVEncoder.mm; sourceTree = "<group>"; };
 		076D78B5162BDBDA637F49AEA6AA0AA7 /* NSMutableArray+LFAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+LFAdd.m"; sourceTree = "<group>"; };
 		07AC561F8D6494580886D38304988331 /* LFStreamSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFStreamSocket.h; sourceTree = "<group>"; };
 		086C432ADE15810DBE289F18E9F2280D /* Pods-GLiveVideoManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLiveVideoManager_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -250,9 +247,9 @@
 		1DB951BF2B9EA4F1F59EDC9600A77E72 /* EXPFloatTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPFloatTuple.h; path = Expecta/EXPFloatTuple.h; sourceTree = "<group>"; };
 		20D5778C614CA3A71F6EEF5BE5EAC3A7 /* Pods-GLiveVideoManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GLiveVideoManager_Example.modulemap"; sourceTree = "<group>"; };
 		23C142630DF7616A552145B5F5E1FE5F /* SPTTestSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTTestSuite.m; path = Specta/Specta/SPTTestSuite.m; sourceTree = "<group>"; };
-		23C694CB232A25FFD89181BB8F091FAF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		23C694CB232A25FFD89181BB8F091FAF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		267B869C186565B3F8353CD9DAD1E80F /* EXPMatchers+beGreaterThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThan.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.m"; sourceTree = "<group>"; };
-		29444CBAD2DE1DC3EC84E86CAD31EECF /* LFH264VideoEncoder.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = LFH264VideoEncoder.mm; sourceTree = "<group>"; };
+		29444CBAD2DE1DC3EC84E86CAD31EECF /* LFH264VideoEncoder.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = LFH264VideoEncoder.mm; sourceTree = "<group>"; };
 		2A3CA84725DFB9F88A68C340826B0BE5 /* EXPMatchers+beInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInstanceOf.h"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.h"; sourceTree = "<group>"; };
 		2FCEBD6BE320FDFBD6C4CE2FBFC4088E /* EXPMatchers+contain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+contain.m"; path = "Expecta/Matchers/EXPMatchers+contain.m"; sourceTree = "<group>"; };
 		2FDCD8C59420DCE7D4A6267D2F0D5F40 /* EXPMatcherHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPMatcherHelpers.m; path = Expecta/Matchers/EXPMatcherHelpers.m; sourceTree = "<group>"; };
@@ -267,10 +264,8 @@
 		408D5D0315EE456588597E3882C57164 /* LFH264VideoEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFH264VideoEncoder.h; sourceTree = "<group>"; };
 		418665583867CCAFAE1E08A59285672D /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "Specta/Specta/XCTestCase+Specta.m"; sourceTree = "<group>"; };
 		4195EFBA924A70AE9B85B16E656B1895 /* ExpectaObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaObject.h; path = Expecta/ExpectaObject.h; sourceTree = "<group>"; };
-		433E3411397B18C1945679214A7F3F6A /* parseurl.c */ = {isa = PBXFileReference; includeInIndex = 1; path = parseurl.c; sourceTree = "<group>"; };
+		433E3411397B18C1945679214A7F3F6A /* parseurl.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = parseurl.c; sourceTree = "<group>"; };
 		43E819FBEBA6827A9321DFDABFAEC8F7 /* Specta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Specta-dummy.m"; sourceTree = "<group>"; };
-		4444F5B79FB0545A1502EA6A8D198BC2 /* SampleHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SampleHandler.h; path = GLiveVideoManager/GLiveVideoManager/SampleHandler.h; sourceTree = "<group>"; };
-		45B13BE6EB15D39B5ED6F9903574FF9C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GLiveVideoManager/GLiveVideoManager/ReplaceMe.m; sourceTree = "<group>"; };
 		45E563E2BFF92AAD6F6ABCC1D637A29C /* SpectaDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaDSL.h; path = Specta/Specta/SpectaDSL.h; sourceTree = "<group>"; };
 		476A0452433AA98C5A7ECD63C9DAD8C9 /* EXPMatchers+respondTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+respondTo.h"; path = "Expecta/Matchers/EXPMatchers+respondTo.h"; sourceTree = "<group>"; };
 		4806AB85BEF89B09A786A7186E2CF8C0 /* EXPMatchers+beGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
@@ -279,7 +274,7 @@
 		4A645D480C5824942118A38AE83D5DB3 /* SPTSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSpec.m; path = Specta/Specta/SPTSpec.m; sourceTree = "<group>"; };
 		4B8D88CE1DD9226921C383B7DAB832F2 /* Pods-GLiveVideoManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLiveVideoManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4BF764DB2C57A1C2185C929CACDA787C /* ExpectaSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaSupport.m; path = Expecta/ExpectaSupport.m; sourceTree = "<group>"; };
-		4D89210F339873B476544D0CB7A5DD4C /* error.c */ = {isa = PBXFileReference; includeInIndex = 1; path = error.c; sourceTree = "<group>"; };
+		4D89210F339873B476544D0CB7A5DD4C /* error.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = error.c; sourceTree = "<group>"; };
 		4DAB03A578AE16502A5C72406DD68274 /* EXPMatcherHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcherHelpers.h; path = Expecta/Matchers/EXPMatcherHelpers.h; sourceTree = "<group>"; };
 		4DEA4C8F3C1AEF96FC521C3141926453 /* rtmp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rtmp.h; sourceTree = "<group>"; };
 		4E558F8EBB86DE9D6A42D59452442BE8 /* EXPMatchers+beSupersetOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSupersetOf.h"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.h"; sourceTree = "<group>"; };
@@ -292,7 +287,7 @@
 		5550D0AA0DA52E4338257E35B223241A /* Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Specta.h; path = Specta/Specta/Specta.h; sourceTree = "<group>"; };
 		55C6A1564E8226CDD5ED59B1C9FFB619 /* Expecta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.release.xcconfig; sourceTree = "<group>"; };
 		564768E3DD6A876A11069340ACE14562 /* Pods-GLiveVideoManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GLiveVideoManager_Tests.modulemap"; sourceTree = "<group>"; };
-		587B33400A45FCD0294EE0868200127A /* rtmp.c */ = {isa = PBXFileReference; includeInIndex = 1; path = rtmp.c; sourceTree = "<group>"; };
+		587B33400A45FCD0294EE0868200127A /* rtmp.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = rtmp.c; sourceTree = "<group>"; };
 		59B01EBCE46480758A079126B3D58B27 /* LFLiveSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LFLiveSession.m; sourceTree = "<group>"; };
 		59B743E761C5571020BAFC2AE9A4CC1F /* LFVideoFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFVideoFrame.h; sourceTree = "<group>"; };
 		5B7C1F12077877D54683C26B0B82F826 /* Pods-GLiveVideoManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GLiveVideoManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -307,7 +302,7 @@
 		691EB50857CC51C10FACF438F831E34D /* Specta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.debug.xcconfig; sourceTree = "<group>"; };
 		6A53700542065CC24914306F32E83943 /* EXPMatchers+beSubclassOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSubclassOf.h"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.h"; sourceTree = "<group>"; };
 		6BEB78006AC4E4B6BE3A154C16378AB0 /* amf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = amf.h; sourceTree = "<group>"; };
-		6D59B82DFEFF55DA38576A4612AA7421 /* GLiveVideoManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GLiveVideoManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6D59B82DFEFF55DA38576A4612AA7421 /* GLiveVideoManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GLiveVideoManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6D5F1C8398EEEC6AB398C34E3F973D2D /* GLiveVideoManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLiveVideoManager-umbrella.h"; sourceTree = "<group>"; };
 		6DD6F789C64809BE240F873718FA5265 /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
 		6F77BB610495F933D06472264CE939C8 /* LFAudioEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFAudioEncoding.h; sourceTree = "<group>"; };
@@ -320,7 +315,7 @@
 		800BA88A2B2AB351294257BFEB46D734 /* EXPMatchers+beCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beCloseTo.m"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.m"; sourceTree = "<group>"; };
 		8052780F2D10385467C68D2FFCBFFFE8 /* ExpectaSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaSupport.h; path = Expecta/ExpectaSupport.h; sourceTree = "<group>"; };
 		823578F8F9BA8869E68F353B9E1A7F5A /* GLiveVideoManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GLiveVideoManager.modulemap; sourceTree = "<group>"; };
-		82DA5CAAC1566938781334DD2F383911 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		82DA5CAAC1566938781334DD2F383911 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		834D574DAAD1150C15D17D52E386BEC5 /* SPTCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCallSite.h; path = Specta/Specta/SPTCallSite.h; sourceTree = "<group>"; };
 		83A8CB5C643230DF19D2064516E0FCBB /* LFHardwareVideoEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFHardwareVideoEncoder.h; sourceTree = "<group>"; };
 		83E41E3E45D16283667C79A4FA48C31A /* EXPFloatTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPFloatTuple.m; path = Expecta/EXPFloatTuple.m; sourceTree = "<group>"; };
@@ -337,10 +332,9 @@
 		9512233FA5509DBBBFB4DAB84CE8E4FE /* EXPMatchers+beginWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beginWith.h"; path = "Expecta/Matchers/EXPMatchers+beginWith.h"; sourceTree = "<group>"; };
 		98106BFEF6C88DDA252B6EF63753B1EE /* LFAVEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFAVEncoder.h; sourceTree = "<group>"; };
 		9859BD406C8DAB7DA16B19943CFA642E /* LFStreamingBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFStreamingBuffer.h; sourceTree = "<group>"; };
-		990A9A5E3DC2AE945C56F705BF10A346 /* SampleHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SampleHandler.m; path = GLiveVideoManager/GLiveVideoManager/SampleHandler.m; sourceTree = "<group>"; };
 		9A56DDB4B298574F74E70FBE7F1634AF /* EXPMatchers+beIdenticalTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beIdenticalTo.h"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.h"; sourceTree = "<group>"; };
 		9B52D13471A738A60DBFD018BD1C58EB /* LFVideoEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFVideoEncoding.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D9EEC96BA21D7392AB37A249AEDD024 /* LFStreamingBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LFStreamingBuffer.m; sourceTree = "<group>"; };
 		9DAE4537BFCC9D72604C1F5891EF485E /* LFAudioFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFAudioFrame.h; sourceTree = "<group>"; };
 		9DDFAD5DB99C9F5E54B7B0063AB8C8BE /* Specta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Specta.modulemap; sourceTree = "<group>"; };
@@ -360,7 +354,7 @@
 		ADB3BEE0F82C854202B2BD991D9DDE4E /* dhgroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dhgroups.h; sourceTree = "<group>"; };
 		AE96C3AA4E7AB53637D7841F820C0945 /* EXPMatchers+conformTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+conformTo.m"; path = "Expecta/Matchers/EXPMatchers+conformTo.m"; sourceTree = "<group>"; };
 		B019E01CFBF89C85B4E74794344FBE3C /* bytes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = bytes.h; sourceTree = "<group>"; };
-		B1D2A68F3E1FB64F091F16F41A57A87E /* hashswf.c */ = {isa = PBXFileReference; includeInIndex = 1; path = hashswf.c; sourceTree = "<group>"; };
+		B1D2A68F3E1FB64F091F16F41A57A87E /* hashswf.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = hashswf.c; sourceTree = "<group>"; };
 		B21759EE4AA8CFD228F1734A071C73D9 /* Pods-GLiveVideoManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLiveVideoManager_Example-Info.plist"; sourceTree = "<group>"; };
 		B24F3F90A1E85D6B6B46399C4B195BCA /* LFLiveSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFLiveSession.h; sourceTree = "<group>"; };
 		B2E7C19388671439133D10116E96EDCE /* EXPBlockDefinedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPBlockDefinedMatcher.h; path = Expecta/EXPBlockDefinedMatcher.h; sourceTree = "<group>"; };
@@ -383,7 +377,7 @@
 		C9772B093039F7BCADE184B01A457D8C /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
 		CA3024BCB728114C9517479C42338F82 /* Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Expecta.h; path = Expecta/Expecta.h; sourceTree = "<group>"; };
 		CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CAE54E634619C98EAA9FD0EFA14D31BE /* log.c */ = {isa = PBXFileReference; includeInIndex = 1; path = log.c; sourceTree = "<group>"; };
+		CAE54E634619C98EAA9FD0EFA14D31BE /* log.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = log.c; sourceTree = "<group>"; };
 		CBB8B84CE88B4791589AA36CD1EF71F2 /* EXPMatchers+conformTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+conformTo.h"; path = "Expecta/Matchers/EXPMatchers+conformTo.h"; sourceTree = "<group>"; };
 		CD07D9DAF64FF866CC0BE7DE93C54E9C /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
 		CD1E369A92FFC3352DB63CBF06AC8CB5 /* GLiveVideoManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLiveVideoManager-prefix.pch"; sourceTree = "<group>"; };
@@ -392,7 +386,7 @@
 		D1EB84AA1BAC17F2DFE3FF960772E667 /* SPTSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSpec.h; path = Specta/Specta/SPTSpec.h; sourceTree = "<group>"; };
 		D2B7250850229EA154D678B24DAAC9D3 /* LFHardwareAudioEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFHardwareAudioEncoder.h; sourceTree = "<group>"; };
 		D72D4C3911D235EF89DCA93641D238BB /* EXPMatchers+raise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raise.m"; path = "Expecta/Matchers/EXPMatchers+raise.m"; sourceTree = "<group>"; };
-		D7370815B4C49C6BF1A0A0D5D0FC5018 /* amf.c */ = {isa = PBXFileReference; includeInIndex = 1; path = amf.c; sourceTree = "<group>"; };
+		D7370815B4C49C6BF1A0A0D5D0FC5018 /* amf.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = amf.c; sourceTree = "<group>"; };
 		D7A0CFA0A5B041F0EB203E78FB1D4E0E /* Pods-GLiveVideoManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLiveVideoManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D86993371BDAC9041C4639A12C7845C7 /* log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
 		D97F2DD9788D72FEA68F235885029445 /* Specta-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Specta-Info.plist"; sourceTree = "<group>"; };
@@ -475,7 +469,6 @@
 			children = (
 				B20DCA3767A9EB4729B00D65483DFE00 /* pili-librtmp */,
 			);
-			name = Vendor;
 			path = Vendor;
 			sourceTree = "<group>";
 		};
@@ -498,7 +491,6 @@
 				92058934C0527FC454694A5D60580187 /* NSMutableArray+LFAdd.h */,
 				076D78B5162BDBDA637F49AEA6AA0AA7 /* NSMutableArray+LFAdd.m */,
 			);
-			name = publish;
 			path = publish;
 			sourceTree = "<group>";
 		};
@@ -610,16 +602,12 @@
 				A6785D611ED60D8B0EC004F4E7479B16 /* NSValue+Expecta.m */,
 				896F33B5B663753F7481CA1670FF26F9 /* Support Files */,
 			);
-			name = Expecta;
 			path = Expecta;
 			sourceTree = "<group>";
 		};
 		61A56AE04BEEEB6A338D6D7D433ED07D /* GLiveVideoManager */ = {
 			isa = PBXGroup;
 			children = (
-				45B13BE6EB15D39B5ED6F9903574FF9C /* ReplaceMe.m */,
-				4444F5B79FB0545A1502EA6A8D198BC2 /* SampleHandler.h */,
-				990A9A5E3DC2AE945C56F705BF10A346 /* SampleHandler.m */,
 				BADBF0E90FA2E613AA849C9DC40A1AAD /* LFLiveKit */,
 				AF116277124094492DCBA32403643275 /* Pod */,
 				38DA556BCCB5959BC1EA7208AEFCB510 /* Support Files */,
@@ -675,7 +663,6 @@
 				418665583867CCAFAE1E08A59285672D /* XCTestCase+Specta.m */,
 				34E9BD7A23B916528514B2A751EB2C9B /* Support Files */,
 			);
-			name = Specta;
 			path = Specta;
 			sourceTree = "<group>";
 		};
@@ -701,7 +688,6 @@
 				9B52D13471A738A60DBFD018BD1C58EB /* LFVideoEncoding.h */,
 				A95F4B4FA8C0CD72A6F913E246855707 /* H264 */,
 			);
-			name = coder;
 			path = coder;
 			sourceTree = "<group>";
 		};
@@ -719,7 +705,6 @@
 				59B743E761C5571020BAFC2AE9A4CC1F /* LFVideoFrame.h */,
 				AD11F134F44756D75E00ADF712515F96 /* LFVideoFrame.m */,
 			);
-			name = objects;
 			path = objects;
 			sourceTree = "<group>";
 		};
@@ -755,7 +740,6 @@
 				E9A1C297DF89A8C59362096A6DD6236E /* LFLiveVideoConfiguration.h */,
 				C646A767E7902D688EC790E7B46823EA /* LFLiveVideoConfiguration.m */,
 			);
-			name = configuration;
 			path = configuration;
 			sourceTree = "<group>";
 		};
@@ -771,7 +755,6 @@
 				9F760FBC8D388176AABD389D664E76D0 /* LFVideoEncoder.h */,
 				37EA19FD8E43B95FB36E1FEE25FD0583 /* LFVideoEncoder.m */,
 			);
-			name = H264;
 			path = H264;
 			sourceTree = "<group>";
 		};
@@ -831,7 +814,6 @@
 				4DEA4C8F3C1AEF96FC521C3141926453 /* rtmp.h */,
 				E99E09A710A719F78DB48EA473329737 /* rtmp_sys.h */,
 			);
-			name = "pili-librtmp";
 			path = "pili-librtmp";
 			sourceTree = "<group>";
 		};
@@ -923,7 +905,6 @@
 				0625A81D0785A9AF475C0C7A5B0BFEC8 /* NSMutableArray+LFAdd.h in Headers */,
 				F7ACA042E446E71D4C58D59B8152F74C /* rtmp.h in Headers */,
 				34D4B8A7DF24E394CCA43434E88385A1 /* rtmp_sys.h in Headers */,
-				F1D0023D78D5476EC5A21FA63208CBAC /* SampleHandler.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1242,9 +1223,7 @@
 				4EE2DE9BA66F902047F796FC89D1952A /* log.c in Sources */,
 				75D7AE9C1B98727F0E50DB120C1E58E6 /* NSMutableArray+LFAdd.m in Sources */,
 				8F8819A866AF3B79DDB66D57F27FBDEC /* parseurl.c in Sources */,
-				D1A4907EBC3D38F4C30CF59BF30C3186 /* ReplaceMe.m in Sources */,
 				7EFB2C015E296D1B4F4B2287CE1AE070 /* rtmp.c in Sources */,
-				8DF7CE70DAD1C9B60D7C08FDE039F06F /* SampleHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1505,8 +1484,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
