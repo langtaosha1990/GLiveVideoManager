@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'GLiveVideoManager_Example' do
+  pod 'GLiveVideoManager', :path => '../'
+
+  target 'GLiveVideoManager_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+  end
+end
